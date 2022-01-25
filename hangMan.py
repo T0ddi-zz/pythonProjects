@@ -11,7 +11,8 @@ benutzereingabe = ""
 # Woerterliste
 woerter = 'Hund Katze Maus Fliege Vogel Giraffe Freddie'.split()
 ratewort = random.choice(woerter)
-print(ratewort)
+# Ratewort ausgeben
+# print(ratewort)
 
 # Buchstaben in Wort ersetzen
 for buchstaben in ratewort:
