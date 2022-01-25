@@ -13,6 +13,7 @@ while aktiv:
 
     if benutzereingabe == computerzahl:
         print("gewonnen")
+        aktiv = False
     elif benutzereingabe < computerzahl:
         print("Zahl ist zu klein")
     else:
